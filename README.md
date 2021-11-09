@@ -1,4 +1,4 @@
-# culinarywebapps
+# culinary
 
 ## Project setup
 ```
