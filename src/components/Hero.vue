@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <img src="../assets/breakfast.svg" alt="breakfast" width="500" />
+        <img src="../assets/images/breakfast.svg" alt="breakfast" width="500" />
       </div>
     </div>
   </div>
@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="col-md-6">
-        <img src="../assets/breakfast.svg" alt="breakfast" width="500" />
+        <img src="../assets/images/breakfast.svg" alt="breakfast" width="500" />
       </div>
     </div>
   </div>
