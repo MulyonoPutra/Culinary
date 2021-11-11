@@ -7,7 +7,9 @@
           <div class="justify-content-center align-self-center">
             <h2><strong>Delicious food menu,</strong><br />in your gadget</h2>
             <p>Ayo segera pilih makanan favorit anda!</p>
-            <button type="button" class="btn btn-dark">Pesan</button>
+            <button type="button" class="btn btn-dark">
+              <router-link to="/food"> Pesan </router-link>
+            </button>
           </div>
         </div>
       </div>

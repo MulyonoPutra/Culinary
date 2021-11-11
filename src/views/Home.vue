@@ -11,9 +11,8 @@
           </h2>
         </div>
         <div class="col">
-          <router-link to="/foods" class="btn btn-success float-right">
-            <b-icon-eye></b-icon-eye>
-            Lihat Semua
+          <router-link to="/food" class="btn btn-success float-right">
+            <b-icon-eye></b-icon-eye>Lihat Semua
           </router-link>
         </div>
       </div>
@@ -55,6 +54,7 @@ export default {
     setProducts(data) {
       this.products = data;
     },
+ 
   },
   mounted() {
     // run if HomeComponent renderer
@@ -62,7 +62,7 @@ export default {
       .get("http://localhost:3000/best-products")
       .then((response) => {
         this.setProducts(response.data);
-        console.log(response)
+        console.log(response);
       })
       .catch((error) => console.log(error));
   },
